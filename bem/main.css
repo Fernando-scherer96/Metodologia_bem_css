@@ -1,0 +1,30 @@
+.block {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.block--produtos {
+  max-width: 640px;
+  width: 100%;
+  margin: 56px auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 1%;
+}
+.block__elemento--produto-imagem {
+  width: 100%;
+}
+.block__elemento--produto-nome {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+.block__elemento--produto-descricao {
+  color: gray;
+}
+.block__elemento--produto-em-destaque {
+  border: 2px solid gold;
+  padding: 8px;
+  background-color: #ffff42;
+}
+
+/*# sourceMappingURL=main.css.map */
